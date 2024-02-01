@@ -5,7 +5,6 @@ export const Contactos = () => {
   const { dynamicStyles } = useScroll();
   return (
     <div className={`container-fluid ${styles.hab}`} style={dynamicStyles}>
-      {/* <h3>CONTACTANOS</h3> */}
       <hr className="dropdown-divider" />
 
       <div className="card mb-3 mw-540">
