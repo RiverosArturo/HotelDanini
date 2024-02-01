@@ -9,10 +9,8 @@ export const Contenido = () => {
 
   const img = [
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694405860/inicio/240534740_125159046511759_3589096235612817581_n_c9arxp.jpg",
-
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404470/exteriores/exteriorHabitaciones2_ilcjxn.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404461/exteriores/exterior_cmtrep.jpg",
-
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404464/exteriores/exteriores_wpmnmx.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694405110/inicio/inicio_oox5il.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404473/exteriores/exteriorJuego_cno2ya.jpg",
@@ -31,12 +29,6 @@ export const Contenido = () => {
         <div className="row">
           <div className={styles.info}>
             <h1 style={{ marginTop: 35 }}>Acerca de Hotel Danini</h1>
-            {/* <p>
-              Entre la sierra norte de Puebla se encuentra hotel Danini, un
-              excepcional destino rico en cultura. Caracterizado por sus grandes
-              zonas boscosas y niebla. Una experiencia que te mantendrá en
-              contacto con la naturaleza.
-            </p> */}
             <p>
               Hotel Danini, ubicado en el Pueblo Mágico de Teziutlán, en el
               estado de Puebla; es un lugar lleno de historia y tradición.
@@ -51,11 +43,6 @@ export const Contenido = () => {
               acceso a los principales atractivos a tan solo unos pasos de
               distancia.
             </p>
-            {/* <p>
-              Las vibrantes experiencias de nuestros bosques, su riqueza
-              natural, la presencia viva de nuestra cultura y la interacción con
-              nuestra gente, transformaran por completo tu experiencia.
-            </p> */}
           </div>
           <div className={styles.info2} style={{ paddingTop: 0 }}>
             <h1>Lobby</h1>
@@ -104,10 +91,6 @@ export const Contenido = () => {
               natural, la presencia viva de nuestra cultura y la interacción con
               nuestra gente, transformaran por completo tu experiencia.
             </p>
-            {/* <p>
-              Nuestra hermosa vista al exterior, te relajara tanto que no te
-              podrás ir. Danini donde la naturaleza te consiente.{" "}
-            </p> */}
           </div>
         </div>
       </section>
@@ -126,14 +109,6 @@ export const Contenido = () => {
                 style={{ backgroundColor: "#006a51", color: "white" }}
               >
                 <h1>Exterior</h1>
-                {/* <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                  style={{ color: "white", backgroundColor: "white" }}
-                  onClick={() => setShowModal(false)}
-                ></button> */}
               </div>
               <div className="modal-body">
                 <img src={showImg} width="100%" />
