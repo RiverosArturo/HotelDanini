@@ -198,14 +198,6 @@ export const Restaurante = () => {
                 style={{ backgroundColor: "#006a51", color: "white" }}
               >
                 <h1>Platillo</h1>
-                {/* <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                  style={{ color: "white", backgroundColor: "white" }}
-                  onClick={() => setShowModal(false)}
-                ></button> */}
               </div>
               <div className="modal-body">
                 <img src={showImg} width="100%" />
