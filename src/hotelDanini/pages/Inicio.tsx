@@ -28,8 +28,6 @@ export const Inicio = () => {
             </video>
           </div>
         </div>
-
-        {/* <CarruselHabs imgs={imgs} thumbs={false} /> */}
         <Contenido />
       </div>
     </>
