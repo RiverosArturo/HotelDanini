@@ -31,7 +31,6 @@ export const Habitacion = ({ habitacion }: Props) => {
   return (
     <div style={dynamicStyles}>
       <div className={`container-fluid ${styles.hab}`}>
-        {/* <h3>Habitación</h3> */}
         <hr className="dropdown-divider" />
 
         <div className="card mb-3 mw-540" style={styleX}>
