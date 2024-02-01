@@ -15,20 +15,10 @@ export const CarruselHabs: FC<Props> = ({ imgs = [], thumbs = true }) => {
         autoFocus
         axis="horizontal"
         autoPlay
-        // centerMode
-        // centerSlidePercentage={30}
-        // dynamicHeight
         emulateTouch
         infiniteLoop
         interval={3000}
-        // labels={{
-        //   leftArrow: "previous slide / item",
-        //   rightArrow: "next slide / item",
-        //   item: "slide item",
-        // }}
-        // selectedItem={1}
         swipeable
-        // width={2000}
         showThumbs={thumbs}
         showStatus={false}
       >
