@@ -23,13 +23,6 @@ export const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: "#f9f9f9" }}
-      // className={`${
-      //   windowWidth < 500
-      //     ? visible
-      //       ? styles["navbar-show"]
-      //       : styles["navbar-hide"]
-      //     : ""
-      // } sticky-top`}
       className={`${
         visible ? styles["navbar-show"] : styles["navbar-hide"]
       }  fixed-top`}
@@ -158,15 +151,6 @@ export const Navbar = () => {
                       Restaurante Danini
                     </NavLink>
                   </li>
-                  {/* <li>
-                    <NavLink
-                      to="/menuDanini"
-                      className="nav-link"
-                      onClick={res}
-                    >
-                      Menú Digital
-                    </NavLink>
-                  </li> */}
                   <li>
                     <NavLink to="/barGallo" className="nav-link" onClick={res}>
                       Bar el gallo
@@ -179,9 +163,6 @@ export const Navbar = () => {
                   Contactos
                 </NavLink>
               </li>
-              {/* <li className="nav-item">
-                <div id="widget-395614"></div>
-              </li> */}
             </ul>
 
             <span className="navbar-text">
@@ -223,7 +204,6 @@ export const Navbar = () => {
             }}
           >
             ¡RESERVA YA!
-            {/* DISPONIBILIDAD Y TARIFAS */}
           </h5>
         </div>
       ) : (
