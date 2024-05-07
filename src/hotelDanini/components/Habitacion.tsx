@@ -10,7 +10,7 @@ interface Hab {
   nombre: string;
   informacion: string;
   imgs: string[];
-  precio: number;
+  // precio: number;
   cupo: number;
 }
 
@@ -40,7 +40,7 @@ export const Habitacion = ({ habitacion }: Props) => {
                 <h1 className="card-title">{habitacion.nombre}</h1>
                 <p className="card-text">{habitacion.informacion}</p>
 
-                <button
+                {/* <button
                   type="button"
                   className="btn btn-lg p-3 m-4"
                   style={{
@@ -48,25 +48,29 @@ export const Habitacion = ({ habitacion }: Props) => {
                     color: "white",
                     cursor: "auto",
                   }}
-                >
-                  {`$${habitacion.precio} `} <i className="bi bi-tags-fill"></i>
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-lg p-3"
-                  style={{
-                    backgroundColor: "#006a51",
-                    color: "white",
-                    cursor: "auto",
-                  }}
-                >
-                  {`${habitacion.cupo} adultos `}
-                  <i className="bi bi-people-fill"></i>
-                </button>
+                > */}
+                  {/* {`$${habitacion.precio} `} <i className="bi bi-tags-fill"></i> */}
+                {/* </button> */}
+                <div className="container d-flex justify-content-center align-items-center mb-3">
+                  <button
+                    type="button"
+                    // disabled
+                    className="btn btn-lg p-3"
+                    style={{
+                      backgroundColor: "#006a51",
+                      color: "white",
+                      cursor: "auto",
+                    }}
+                  >
+                    {`${habitacion.cupo} adultos `}
+                    <i className="bi bi-people-fill"></i>
+                  </button>
+                </div>
+                
 
-                <p style={{ color: "rgb(30, 132, 73)" }}>
-                  + MXN 171 cargos e impuestos
-                </p>
+                {/* <p style={{ color: "rgb(30, 132, 73)" }}>
+                  Más cargos e impuestos
+                </p> */}
               </div>
             </div>
 
