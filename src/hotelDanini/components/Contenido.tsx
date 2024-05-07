@@ -8,7 +8,7 @@ export const Contenido = () => {
   const [showImg, setShowImg] = useState("");
 
   const img = [
-    "https://res.cloudinary.com/dawwp31sm/image/upload/v1694405860/inicio/240534740_125159046511759_3589096235612817581_n_c9arxp.jpg",
+    // "https://res.cloudinary.com/dawwp31sm/image/upload/v1694405860/inicio/240534740_125159046511759_3589096235612817581_n_c9arxp.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404470/exteriores/exteriorHabitaciones2_ilcjxn.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404461/exteriores/exterior_cmtrep.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404464/exteriores/exteriores_wpmnmx.jpg",
@@ -17,6 +17,7 @@ export const Contenido = () => {
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404467/exteriores/exteriorHabitaciones_evenni.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404476/exteriores/vista_kc5qo2.jpg",
     "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404457/exteriores/entrada_hbw2vh.jpg",
+    "https://res.cloudinary.com/dawwp31sm/image/upload/v1694404188/eventos/boda5_h8thuo.jpg",
   ];
 
   const setImage = (img: string) => {
