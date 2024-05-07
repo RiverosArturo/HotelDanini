@@ -9,7 +9,7 @@ import {
 import {
   DobleMatrimonial,
   KingSize,
-  MasterDeluxe,
+  MasterSuite,
   QueenSize,
   SuiteDeluxe,
 } from "../hotelDanini/pages/habitaciones";
@@ -30,7 +30,7 @@ export const Navigation = () => {
           element={<DobleMatrimonial />}
         />
         <Route path="/habitacion/suiteDeluxe" element={<SuiteDeluxe />} />
-        <Route path="/habitacion/masterDeluxe" element={<MasterDeluxe />} />
+        <Route path="/habitacion/masterSuite" element={<MasterSuite />} />
         <Route path="/restauranteDanini" element={<Restaurante />} />
         {/* <Route path="/menuDanini" element={<h1>Menú Danini</h1>} /> */}
         <Route path="/barGallo" element={<Bar />} />
