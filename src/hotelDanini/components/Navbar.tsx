@@ -114,11 +114,11 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="/habitacion/masterDeluxe"
+                      to="/habitacion/masterSuite"
                       className="nav-link"
                       onClick={habs}
                     >
-                      Master Deluxe
+                      Master Suite
                     </NavLink>
                   </li>
                 </ul>
